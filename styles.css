@@ -1,0 +1,72 @@
+body{
+    margin: 0;
+    padding: auto;
+    font-family:sans-serif;
+    background: url(public_photos/orange-flower.jpg);
+    background-position: center ;
+    background-size: cover;
+}
+
+.logincontainer{
+    color: #fcfafa;
+    width: 380px;
+    height:420px;
+    position: absolute;
+    top:50%; left:50%; 
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    border-radius:16px;
+    box-shadow: rgba(0, 0, 0,.7);
+    padding: 70px 30px;
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    text-align:center;
+    letter-spacing:.1em;
+    word-wrap: break-word;
+    line-height: normal;
+    font-weight: bold;
+}
+
+.logincontainer p{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.logincontainer input{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.logincontainer input[type='password']{
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.logincontainer input[type='email']{
+    border: none;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;
+}
+
+.logincontainerinput[type='submit']{
+    border: none;
+    cursor: pointer;
+    outline: none;
+    background: #fcfafa;
+    font-size: 29px;
+    border-radius: 20px;
+    transition:.5s ease all;
+    -webkit-transition:.5s ease all;
+
+}
